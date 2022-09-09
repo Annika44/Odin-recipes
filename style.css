@@ -1,0 +1,81 @@
+img {
+    width: 300px;
+    height: 350px;
+    border-radius: 50px;
+}
+
+body {
+    background-color: aliceblue;
+    font-family: calibri;
+    font-size: 30px;
+}
+
+h1 {
+    font-size: 35px;
+    text-align: center;
+    margin: 5px;
+}
+
+.container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+
+.pic-one,
+.pic-two,
+.pic-three,
+.pic-four,
+.pic-five,
+.pic-six {
+    margin: 50px;
+}
+
+.text-one,
+.text-two,
+.text-three,
+.text-four,
+.text-five,
+.text-six {
+    position: relative;
+    width: 220px;
+    height: auto;
+    margin: auto;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-top: -250px;
+    margin-bottom: 200px;
+    background-color: rgba(211, 211, 211, .6);
+    border-radius: 18px;
+    transition: transform .2s;
+    user-select: none;
+}
+
+.text-one:hover,
+.text-two:hover,
+.text-three:hover,
+.text-four:hover,
+.text-five:hover,
+.text-six:hover {
+    transform: scale(1.1);
+}
+
+a:link {
+    text-decoration: none;
+}
+
+/* This rule will apply to all links */
+a {
+    text-decoration: underline;
+  }
+
+  /* This will apply to unvisited links */
+  a:link {
+    color: rgb(255, 255, 255);
+  }
+
+  /* And you guessed it, this applies to all links the user has clicked on */
+  a:visited {
+    color: rgb(255, 255, 255);
+  }
